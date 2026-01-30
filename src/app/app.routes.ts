@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { PaginaInicialComponent } from './pages/pagina-inicial/pagina-inicial.component';
-import { CardsComponent } from './pages/cards/cards.component';
+import { PaginaInicial } from './pages/pagina-inicial/pagina-inicial';
+import { Cards } from './pages/cards/cards';
 
 export const appRoutes: Routes = [
-  { path: 'pagina-inicial', component: PaginaInicialComponent },
-  { path: 'cards', component: CardsComponent },
+  { path: 'pagina-inicial', component: PaginaInicial },
+  { path: 'cards', component: Cards },
   { path: '', redirectTo: '/pagina-inicial', pathMatch: 'full' },
   { path: '**', redirectTo: '/pagina-inicial' }
 ];
