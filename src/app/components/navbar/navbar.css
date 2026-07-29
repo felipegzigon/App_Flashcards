@@ -1,0 +1,24 @@
+body {
+    padding-top: 4rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #d3d2d2;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1vh 3rem;
+    box-sizing: border-box;
+}
+
+.logo-text {
+    align-items: center;
+    margin-left: 2vw;
+    font-size: 20px;
+}
