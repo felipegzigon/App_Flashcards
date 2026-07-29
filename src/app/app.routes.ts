@@ -1,10 +1,18 @@
 import { Routes } from '@angular/router';
-import { PaginaInicial } from './pages/pagina-inicial/pagina-inicial';
-import { Cards } from './pages/cards/cards';
+import { Decks } from './pages/decks/decks';
+import { Card } from './pages/card/card';
+import { EditCard } from './pages/edit-card/edit-card';
+import { Search } from './pages/search/search';
+import { AddCard } from './pages/add-card/add-card';
+import { Account } from './pages/account/account';
 
 export const appRoutes: Routes = [
-  { path: 'pagina-inicial', component: PaginaInicial },
-  { path: 'cards', component: Cards },
-  { path: '', redirectTo: '/pagina-inicial', pathMatch: 'full' },
-  { path: '**', redirectTo: '/pagina-inicial' }
+  { path: 'account', component: Account },
+  { path: 'card', component: Card },
+  { path: 'card/:id', component: EditCard },
+  { path: 'card/add', component: AddCard },
+  { path: 'search', component: Search },
+  { path: 'decks', component: Decks },
+  { path: '', redirectTo: '/decks', pathMatch: 'full' },
+  { path: '**', redirectTo: '/decks' }
 ];
