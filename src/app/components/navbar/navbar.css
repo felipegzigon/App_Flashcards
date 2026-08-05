@@ -5,20 +5,54 @@ body {
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #d3d2d2;
+    background-color: #c8d1d9;
     width: 100%;
     min-height: 4rem;
-    padding: 1vh 3rem;
+    padding: 0vh 3rem;
     box-sizing: border-box;
 }
 
-.logo-text {
-    align-items: center;
-    margin-left: 2vw;
-    font-size: 20px;
+.logo-text p {
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}
+
+.nav-items,
+.account-link {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    color: #737373;
+}
+
+.nav-items {
+    height: 100%;
+}
+
+.nav-items a,
+.account-link a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+.nav-items a {
+    font-size: 0.9rem;
+    padding-bottom: 0.1rem;
+    margin-top: 1.5rem; 
+}
+
+.account-link {
+    margin-left: auto;
+}
+
+.nav-items a:hover,
+.account-link a:hover {
+    text-decoration: underline;
 }
