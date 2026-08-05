@@ -46,6 +46,8 @@ body {
     font-size: 0.9rem;
     padding-bottom: 0.1rem;
     margin-top: 1.5rem; 
+    position: relative;
+    display: inline-block;
 }
 
 .account-link {
@@ -55,4 +57,15 @@ body {
 .nav-items a:hover,
 .account-link a:hover {
     text-decoration: underline;
+}
+
+.nav-items a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #fff;
+    bottom: -0.65rem;
+    border-radius: 2px;
 }
