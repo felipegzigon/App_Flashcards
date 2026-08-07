@@ -1,0 +1,10 @@
+.container {
+    background-color: #c8d1d9;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
