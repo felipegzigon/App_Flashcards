@@ -3,10 +3,12 @@ body {
 }
 
 .container {
+
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -54,7 +56,10 @@ body {
     margin-left: auto;
 }
 
-.nav-items a:hover,
+.nav-items a:hover {
+    color: #fff;
+}
+
 .account-link a:hover {
     text-decoration: underline;
 }
