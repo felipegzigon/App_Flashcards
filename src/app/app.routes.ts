@@ -10,7 +10,7 @@ export const appRoutes: Routes = [
   { path: 'account', component: Account },
   { path: 'card', component: Card },
   { path: 'card/:id', component: EditCard },
-  { path: 'card/add', component: AddCard },
+  { path: 'add-card', component: AddCard },
   { path: 'search', component: Search },
   { path: 'decks', component: Decks },
   { path: '', redirectTo: '/decks', pathMatch: 'full' },
