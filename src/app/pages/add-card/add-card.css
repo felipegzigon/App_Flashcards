@@ -1,0 +1,19 @@
+.content{
+    margin-left: 2vh;
+}
+
+.add-button {
+    margin-top: 5vh;
+    padding: 2vh 4vh;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 94, 218);
+    background-color: white;
+    color: rgb(0, 94, 218);
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.add-button:hover{
+    background-color: rgb(0, 94, 218);
+    color: white;
+}
