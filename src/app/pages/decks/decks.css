@@ -1,0 +1,47 @@
+.content{
+    padding: 8vh 5vh 0 20vh;
+}
+
+table{
+    width: 90%;
+    border-spacing: 0 10px;
+}
+
+.deck-name, td {
+    text-align: left;
+    color: rgb(0, 94, 218);
+    text-decoration: none;
+}
+
+
+.deck-name:hover{
+    text-decoration: underline;
+}
+
+.total, td{
+    color: rgb(0, 94, 218);
+}
+.new, td{
+    color: green;
+}
+.review, td{
+    color: rgb(255, 80, 27);
+}
+.settings-icon, td{
+    color: rgb(0, 94, 218);
+}
+
+th{
+    color: #737373;
+}
+
+td{
+    background-color: #c8d1d9;
+    text-align: center;
+    color: black;
+    height: 30px;
+}
+
+th, td{
+    padding: 10px;
+}
