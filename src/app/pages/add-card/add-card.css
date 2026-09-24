@@ -1,0 +1,58 @@
+.content {
+    padding-left: 16vh;
+}
+
+.title {
+    color: rgb(27, 27, 27);
+    padding: 0vh 5vh 0 5vh;
+}
+
+form {
+    max-width: 700px;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.field label {
+    color: #737373;
+    font-size: 18px;
+    margin: 0;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    max-width: 420px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.add-button {
+    margin-top: 3vh;
+    padding: 2vh 4vh;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 94, 218);
+    background-color: white;
+    color: rgb(0, 94, 218);
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.add-button:hover {
+    background-color: rgb(0, 94, 218);
+    color: white;
+}
+
+.content,
+label {
+    color: #737373;
+    font-size: 18px;
+}
