@@ -1,0 +1,73 @@
+.content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 22px 27px 46px;
+}
+
+.card {
+/*    width: min(311px, calc(100% - 8px)); */
+    max-width: 100%;
+    margin-left: 8px;
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardUp {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #aaa;
+    line-height: 18px;
+}
+
+.cardDown {
+    padding-top: 8px;
+    line-height: 18px;
+}
+
+.time,
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    width: 100%;
+}
+
+.time {
+    margin-top: 203px;
+    color: #111;
+    font-size: 13px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 8px;
+}
+
+.buttons button {
+    min-width: 0;
+    height: 35px;
+    padding: 0 8px;
+    border: 0;
+    border-radius: 2px;
+    background: #526cff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 360px) {
+    .content {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+
+    .time,
+    .buttons {
+        gap: 8px;
+    }
+
+    .buttons button {
+        padding: 0 4px;
+        font-size: 14px;
+    }
+}
